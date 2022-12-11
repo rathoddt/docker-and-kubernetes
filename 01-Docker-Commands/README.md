@@ -5,14 +5,12 @@
 ## Management Commands
 - [Azure Free Account](https://azure.microsoft.com/en-in/free/)
 - 200 dollar credit for first 30 days
-```builder```     - Manage builds
-
-```config```       - Manage Docker configs
-
-```container``` - Manage containers
-engine      - Manage the docker engine
-image       - Manage images
-network   - Manage networks
+<br> ```builder```     - Manage builds
+<br> ```config```       - Manage Docker configs
+<br> ```container``` - Manage containers
+<br> engine      - Manage the docker engine
+<br> image       - Manage images
+<br> network   - Manage networks
 node         - Manage Swarm nodes
 plugin       - Manage plugins
 secret       - Manage Docker secrets
