@@ -20,13 +20,13 @@
 
 
 ### docker image
-ls            - List images
-prune    - Remove unused images
-pull        - Pull an image or a repository from a registry
-push     - Push an image or a repository to a registry
-import   - Import the contents from a tarball to create a filesystem image
-inspect  - Display detailed information on one or more images
-rm        - Remove one or more images
+<br> ```ls```            - List images
+<br> ```prune```    - Remove unused images
+<br> ```pull```        - Pull an image or a repository from a registry
+<br> ```push```     - Push an image or a repository to a registry
+<br> ```import```   - Import the contents from a tarball to create a filesystem image
+<br> ```inspect```  - Display detailed information on one or more images
+<br> ```rm```        - Remove one or more images
 
 - [Azure Kubernetes Service with Azure DevOps and Terraform](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass)
 - [Azure DevOps for Kubernetes Workloads running on Azure AKS Cluster](https://github.com/stacksimplify/azure-devops-github-acr-aks-app1)
