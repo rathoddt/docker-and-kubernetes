@@ -1,13 +1,15 @@
 # Docker Commands
 
 ## Management Commands
-<br> ```builder```     - Manage builds
-<br> ```config```       - Manage Docker configs
+
+
+<br> `build`     - Manage builds
+<br> `config`       - Manage Docker configs
 <br> ```container``` - Manage containers
 <br> ```engine```      - Manage the docker engine
 <br> ```image```       - Manage images
 <br> ```network```   - Manage networks
-<br> `````node```         - Manage Swarm nodes
+<br> ```node```         - Manage Swarm nodes
 <br> ```plugin```       - Manage plugins
 <br> ```secret```       - Manage Docker secrets
 <br> ```service```     - Manage services
