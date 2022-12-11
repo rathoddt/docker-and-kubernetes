@@ -8,18 +8,18 @@
 <br> ```builder```     - Manage builds
 <br> ```config```       - Manage Docker configs
 <br> ```container``` - Manage containers
-<br> ```engine      - Manage the docker engine
-<br> ```image       - Manage images
-<br> ```network   - Manage networks
-<br> ```node         - Manage Swarm nodes
-<br> ```plugin       - Manage plugins
-<br> ```secret       - Manage Docker secrets
-<br> ```service     - Manage services
-<br> ```stack        - Manage Docker stacks
-<br> ```swarm     - Manage Swarm
-<br> ```system    - Manage Docker
-<br> ```trust        - Manage trust on Docker images
-<br> ```volume   - Manage volumes
+<br> ```engine```      - Manage the docker engine
+<br> ```image```       - Manage images
+<br> ```network```   - Manage networks
+<br> ```node```         - Manage Swarm nodes
+<br> ```plugin```       - Manage plugins
+<br> ```secret```       - Manage Docker secrets
+<br> ```service```     - Manage services
+<br> ```stack```       - Manage Docker stacks
+<br> ```swarm```     - Manage Swarm
+<br> ```system```    - Manage Docker
+<br> ```trust```        - Manage trust on Docker images
+<br> ```volume```   - Manage volumes
 
 
 
