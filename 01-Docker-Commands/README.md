@@ -5,6 +5,23 @@
 ## Management Commands
 - [Azure Free Account](https://azure.microsoft.com/en-in/free/)
 - 200 dollar credit for first 30 days
+builder     - Manage builds
+config       - Manage Docker configs
+container - Manage containers
+engine      - Manage the docker engine
+image       - Manage images
+network   - Manage networks
+node         - Manage Swarm nodes
+plugin       - Manage plugins
+secret       - Manage Docker secrets
+service     - Manage services
+stack        - Manage Docker stacks
+swarm     - Manage Swarm
+system    - Manage Docker
+trust        - Manage trust on Docker images
+volume   - Manage volumes
+![image](https://user-images.githubusercontent.com/5218451/206916055-583a35b1-0e95-4e28-9a72-68bf7bb7154b.png)
+
 
 ## Step-02: Fork Course Github Repositories
 - [Azure Kubernetes Service with Azure DevOps and Terraform](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass)
