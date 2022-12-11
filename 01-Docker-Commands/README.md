@@ -1,10 +1,6 @@
 # Docker Commands
-1. Azure Cloud Subscription
-2. Course Github Repositories
 
 ## Management Commands
-- [Azure Free Account](https://azure.microsoft.com/en-in/free/)
-- 200 dollar credit for first 30 days
 <br> ```builder```     - Manage builds
 <br> ```config```       - Manage Docker configs
 <br> ```container``` - Manage containers
