@@ -1,12 +1,31 @@
+
+${\color{orange}orannge}$
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+```diff
+- This is a red colored line
++ This is a green colored line
+@@ This is a purple colored line @@
+```
+
+```diff
+build 
+``` 
+ Manage builds
+
 # Docker Commands
 
 ## Management Commands
 
 
 <br> `build`     - Manage builds
-<br> `config`       - Manage Docker configs
-<br> ```container``` - Manage containers
-<br> ```engine```      - Manage the docker engine
+<br id=or> `config`       - Manage Docker configs
+<br> ```#FF0000AA container``` - Manage containers
+<br> ```${\color{orange}orannge}$ engine```      - Manage the docker engine
 <br> ```image```       - Manage images
 <br> ```network```   - Manage networks
 <br> ```node```         - Manage Swarm nodes
