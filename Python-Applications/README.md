@@ -15,6 +15,12 @@ Set working directory
 ```
 docker run -it -v $PWD:/app -w /app  python  python3 hello.py
 ```
+
+Pulling python image from docker hub
+```
+docker pull python
+docker pull node
+```
 Simple calander app
 ```
 docker run -it -v $PWD:/app -w /app  python  python3 calendar-app.py
