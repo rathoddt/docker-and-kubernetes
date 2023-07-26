@@ -42,8 +42,9 @@ docker exec e22 env
 ```
 `docker run --help`    
 
+### Creating custom network for WordPress 
 ```
-docker network create mysql
+docker network create mysql-nw
 docker run \
        --network mysql-nw \
        --name mysql-server \
