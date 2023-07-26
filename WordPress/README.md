@@ -40,6 +40,6 @@ url: ip:8080
 
 docker exec e22 env
 ```
-
-<b>Hostname</b> is internal hostname of the container
-<b>Name</b> is external docker name for container
+`docker run --help`    
+<b>Hostname </b> `-h, --hostname string`is internal hostname of the container  
+<b>Name</b> `--name` is external docker name for container
