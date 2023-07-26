@@ -42,7 +42,7 @@ docker exec e22 env
 ```
 `docker run --help`    
 
-### Creating custom network for WordPress 
+### Creating custom network for mysql & mysqlphpadmin
 ```
 docker network create mysql-nw
 docker run \
@@ -56,5 +56,31 @@ docker run \
        --name phpmyadmin  \
        -e PMA_HOST=mysql-server \
        -p 8080:80 \
+       -d phpmyadmin
+```
+
+### Creating custom network for WordPress 
+```
+docker network create wordpress-nw
+docker run \
+       --network wordpress-nw \
+       -p 8080:80 \       
+       --name wp-server \
+       -d wordpress:5.4
+
+docker run \
+       --network wordpress-nw \
+       --name mysql-server \
+       -e MYSQL_ROOT_PASSWORD=my-passwd \
+       -e MYSQL_DATABASE=WP-01 \
+       -e MYSQL_USER=wp-user \
+       -e MYSQL_PASSWORD=wp-passwd \
+       -d mysql:5.7
+
+docker run \
+       --network wordpress-nw \
+       --name phpmyadmin  \
+       -e PMA_HOST=mysql-server \
+       -p 8081:80 \
        -d phpmyadmin
 ```
