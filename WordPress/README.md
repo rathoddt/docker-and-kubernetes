@@ -41,3 +41,19 @@ url: ip:8080
 docker exec e22 env
 ```
 `docker run --help`    
+
+```
+docker network create mysql
+docker run \
+       --network mysql-nw \
+       --name mysql-server \
+       -e MYSQL_ROOT_PASSWORD=my-passwd \
+       -d mysql
+
+docker run \
+       --network mysql-nw \
+       --name phpmyadmin  \
+       -e PMA_HOST=mysql-server \
+       -p 8080:80 \
+       -d phpmyadmin
+```
