@@ -25,3 +25,5 @@ Simple calander app
 ```
 docker run -it -v $PWD:/app -w /app  python  python3 calendar-app.py
 ```
+
+Application within simple-app is separte application
