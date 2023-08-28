@@ -64,3 +64,10 @@ docker:x:999:user
 ```
 
 Once finished, log out and then log back in for changes to take effect.
+
+### Difference between CMD and Entry point
+CMD: Sets default parameters that can be overridden from the Docker command line interface (CLI) while running a docker container.
+
+ENTRYPOINT: Sets default parameters that cannot be overridden while executing Docker containers with CLI parameters.
+
+`CMD` commands are ignored by daemon when there are parameters stated within the docker run command while `ENTRYPOINT` instructions are not ignored but instead are appended as command line parameters by treating those as arguments of the command.
