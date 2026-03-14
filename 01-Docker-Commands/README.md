@@ -82,7 +82,7 @@ Example commands:
 `docker container stats <CONTAINER ID>`    
 `docker container exec -it  <CONTAINER ID>   /bin/bash`    
 
-Query and remove all images
+Query and remove all unused images
 ```
 docker system prune -a -f
 
