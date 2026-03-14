@@ -88,8 +88,14 @@ docker system prune -a -f
 
 docker rmi $(docker images -q)
 
-```  
+```
 
+Getting container IP
+```
+docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' myapp1
+
+docker inspect myapp1 | grep IPAddress
+```
 Inside container  
 `root@c3e6e0f20ae4:/# ls /usr/share/nginx/html`  
 
