@@ -97,7 +97,17 @@ docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' myap
 docker inspect myapp1 | grep IPAddress
 ```
 Inside container  
-`root@c3e6e0f20ae4:/# ls /usr/share/nginx/html`  
+```
+#Connecting to container (use appname/container id)
+docker exec -it  myapp1 /bin/sh
+
+#Without looging inside container
+docker exec -it  myapp1 ls
+
+docker inspect myapp1 | grep IPAddress
+root@c3e6e0f20ae4:/# ls /usr/share/nginx/html`
+```
+ 
 
 `docker container exec -it <CONTAINER ID>  ls /usr/share/nginx/html`  
 `docker container rm -f <CONTAINER ID>`    
