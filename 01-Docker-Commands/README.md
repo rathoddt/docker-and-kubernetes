@@ -35,9 +35,18 @@
 `rm` - Remove one or more images    
 
 Example commands:  
-`docker image ls`  
-`docker imgae pull nginx`  
-`docker image inspect <IMAGE ID>`
+```
+#list
+docker image
+docker image ls  
+
+docker imgae pull nginx  
+docker image inspect <IMAGE ID>
+
+#remove images
+docker rmi <IMAGE ID>
+docker image rm <IMAGE ID>
+```
 
 ## Docker container
 `ls` - List containers  
