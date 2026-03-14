@@ -82,6 +82,14 @@ Example commands:
 `docker container stats <CONTAINER ID>`    
 `docker container exec -it  <CONTAINER ID>   /bin/bash`    
 
+Query and remove all images
+```
+docker system prune -a -f
+
+docker rmi $(docker images -q)
+
+```  
+
 Inside container  
 `root@c3e6e0f20ae4:/# ls /usr/share/nginx/html`  
 
