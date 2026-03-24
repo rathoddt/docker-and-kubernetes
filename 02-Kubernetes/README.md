@@ -11,6 +11,9 @@ $env:KUBE_EDITOR="code --wait"
 Make it permanent (recommended)
 [Environment]::SetEnvironmentVariable("KUBE_EDITOR", "code --wait", "User")
 
+Add 
+args:
+- --kubelet-insecure-tls
 Get cpu and memory utilization
 kubectl top pods
 ```
